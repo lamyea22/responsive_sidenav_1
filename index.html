@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--plugin-->
+
+    <!--font links-->
+
+    <!--CSS Links-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Responsive sidenav 1</title>
+    <!--fontawesome links-->
+    <script src="https://kit.fontawesome.com/d856731319.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <div class="container my_content">
+        <h1>Responsive sidenav</h1>
+        <span onclick="showNav()" class="open_menu_span"><i class="fas fa-bars"></i>Menu</span>
+        <div>
+    </header>
+    <!--header end-->
+    <!-- sidenav start-->
+    <div class="sidenav" id="sidenav">
+        <ul>
+            <li class="close_button"><a href="javascript:void(0)" onclick="closeNav()" ><i class="fas fa-times"></i>Close</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Read more</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <!-- sidenav end -->
+    <!-- home start -->
+    <section class="home"></section>
+    <!-- home end -->
+    <!-- about start -->
+    <section class="about"></section>
+    <!-- about end -->
+    <!-- our team start -->
+    <section class="our_team"></section>
+    <!-- our team end -->
+    <!-- read more start -->
+    <section class="read_more"></section>
+    <!-- read more end -->
+    <!-- contact us start -->
+    <section class="contact_us"></section>
+    <!-- contact us end -->
+
+
+
+    <!--JS Links -->
+    <!-- <script src="js/jquery-3.5.1.min.js"></script> -->
+    <!--plugin start-->
+    <!--plugin end-->
+<!--     <script src="js/popper.min.js"></script> -->
+    <script src="js/script.js"></script>
+
+    <script>
+        function showNav(){
+            document.getElementById("sidenav").style.width="260px";
+        }
+        function closeNav(){
+            document.getElementById("sidenav").style.width="0";
+        }
+    </script>
+</body>
+</html>

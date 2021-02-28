@@ -1,0 +1,89 @@
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;  /*to control how all 
+	the element's width and height are calculated. this is needed to build a responsive grid view*/
+   
+}
+body{}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: grey;
+}
+header{
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+.my_content h1{
+    font-size: 30px;
+}
+.open_menu_span{
+	font-size: 30px;
+	cursor: pointer;
+}
+.sidenav{
+	box-sizing: border-box;
+	height: 100%;
+	width: 0px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 1;
+	top:0;
+	left:0;
+	background-color: salmon;
+	padding-top: 60px;
+	transition: .5s;
+    
+}
+.sidenav ul{}
+.sidenav ul li{
+	list-style: none;
+}
+.sidenav ul li a{
+    text-decoration: none;
+    color: black !important;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 18px;
+    transition: .3s;
+    margin-left: 50px;
+}
+.sidenav ul li a:hover{
+	color: white !important;
+}
+.close_button{
+	position: absolute;
+	top:0;
+	right: 8px;
+}
+
+/*OTHER SECTIONS DEMO*/
+.home{
+	min-height: 400px;
+	background-color: purple;
+}
+.about{
+	min-height: 400px;
+	background-color: #982828;
+}
+.our_team{
+	min-height: 400px;
+	background-color: grey;
+}
+.read_more{
+	min-height: 400px;
+	background-color: black;
+}
+.contact_us{
+	min-height: 400px;
+	background-color: mediumseagreen;	
+}
